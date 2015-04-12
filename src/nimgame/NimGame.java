@@ -9,15 +9,7 @@ package nimgame;
 
 import java.util.Scanner;
 
-/**
- * Alicia Rodriguez
- * Section U04
- * 
- * I affirm that this program is entirely my own work 
- * and none of it is the work of any other person.
- *       ___________________
- *        (your signature)
- */
+//******PROPERTY OF ALICIA RODRIGUEZ********
 public class NimGame {
 
     /**
