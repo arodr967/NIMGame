@@ -5,7 +5,7 @@ Dumb computer player removes a random number of marbles between 1 and
 n/2 each time it is it's turn.
  */
 package nimgame;
-
+//******PROPERTY OF ALICIA RODRIGUEZ********
 import java.util.Random;
 
 public class DumbComputer implements Player
@@ -17,7 +17,7 @@ public class DumbComputer implements Player
     {
         //no instances variables needed; Therefore, nothing to be initialized.
     }
-    
+    //******PROPERTY OF ALICIA RODRIGUEZ********
     /**
      * Overriding toString method which will return what type of player this is
      * 
@@ -28,11 +28,11 @@ public class DumbComputer implements Player
     {
         return "Dumb Computer";
     }
-    
+//******PROPERTY OF ALICIA RODRIGUEZ********
     /**
      * The dumb computers move will be a random number of marbles
      * between 1 and n/2.
-     * 
+     * //******PROPERTY OF ALICIA RODRIGUEZ********
      * @param marbles number of marbles that are in the pile
      * @return the number which the player wants to make their move with
      */
@@ -46,4 +46,5 @@ public class DumbComputer implements Player
                 + " marbles from the pile.\n");
         return move;      
     }
-}
+} //end of Dumb Computer class definition
+//******PROPERTY OF ALICIA RODRIGUEZ********
