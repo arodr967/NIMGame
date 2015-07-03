@@ -1,6 +1,6 @@
 /*
 File Name: NimGame.java
-
+//******PROPERTY OF ALICIA RODRIGUEZ********
 Tester class which will create the player objects and pass them
 to the Nim constructor (or the play() method). Once the game has finished,
 the user is prompted to see if they want to play again.
@@ -17,7 +17,7 @@ public class NimGame {
      */
     public static void main(String[] args) 
     {
-       
+      //******PROPERTY OF ALICIA RODRIGUEZ******** 
         System.out.println("Welcome To The Ancient and "
                 + "Honorable Game of Nim!\n"); 
         
@@ -26,7 +26,7 @@ public class NimGame {
        Player dumbComputerPlayer = new DumbComputer();
        Player smartComputerPlayer = new SmartComputer();
 
-       
+//******PROPERTY OF ALICIA RODRIGUEZ********       
        Scanner inputScan = new Scanner(System.in);
        String playAgain;
 
@@ -38,7 +38,7 @@ public class NimGame {
                    + "(Type First or Second)");
            String answer1 = inputScan.next();
            System.out.println("");  //new line for formatting
-           
+        //******PROPERTY OF ALICIA RODRIGUEZ********   
            System.out.println("Do you want to play with the Smart or Dumb "
                    + "computer? (Type Smart or Dumb)");
            String answer2 = inputScan.next();
@@ -47,7 +47,7 @@ public class NimGame {
            //Nim object, create a new game everytime the person wants to play
            //again
            Nim nimGame = new Nim();
-           
+        //******PROPERTY OF ALICIA RODRIGUEZ********   
            //4 different if statements for each condition
            if(answer1.equalsIgnoreCase("First") &&
                    answer2.equalsIgnoreCase("Smart"))
@@ -59,13 +59,13 @@ public class NimGame {
                    answer2.equalsIgnoreCase("Dumb"))
            {
                nimGame.play(humanPlayer, dumbComputerPlayer);
-      
+      //******PROPERTY OF ALICIA RODRIGUEZ********
            }
            if(answer1.equalsIgnoreCase("Second") &&
                    answer2.equalsIgnoreCase("Smart"))
            {
                nimGame.play(smartComputerPlayer, humanPlayer);
-     
+     //******PROPERTY OF ALICIA RODRIGUEZ********
            }
            if(answer1.equalsIgnoreCase("Second") &&
                    answer2.equalsIgnoreCase("Dumb"))
@@ -75,7 +75,7 @@ public class NimGame {
            }
            
            System.out.println("");  //new line for formatting
-           
+     //******PROPERTY OF ALICIA RODRIGUEZ********      
            //Ask player if they want to play atleast one more time
            System.out.println("Do you want to play again? (Yes or No)");
            playAgain = inputScan.next();
@@ -88,11 +88,11 @@ public class NimGame {
             System.out.println("\nThanks for playing.");
            }
            //no break needed because it's already the end of the loop
-            
+     //******PROPERTY OF ALICIA RODRIGUEZ********       
        } while(playAgain.equalsIgnoreCase("Yes"));
          //does the player want to play again? then keep looping
-       
+ //******PROPERTY OF ALICIA RODRIGUEZ********      
        
     }
-    
-}
+//******PROPERTY OF ALICIA RODRIGUEZ********    
+}//end of NimGame class definition
